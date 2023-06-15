@@ -1,0 +1,6 @@
+EE576 Project 5
+Ender Yağcılar
+208405039
+
+
+Dataset folder paths need to be adjusted in header file. After that adjustment, code can be run. At the end of code, ROC curves are plotted on screen

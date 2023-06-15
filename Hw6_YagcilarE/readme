@@ -1,0 +1,10 @@
+EE576 Project 6
+Ender Yağcılar
+2018405039
+
+
+Dataset folders are in the header file. cars are stored in the car_path and human images are stored in the human_path. Those variables must be adjusted before running the code. This code is developed on linux machine using gcc. Code makes file operations to get number of frames inside selected folder. Libraries used for this purpose MAY NOT WORK ON WİNDOWS MACHİNE.
+
+After code is compiled and run, dataset is selected by terminal input, either human or car. Then, code makes file operations to get number of frames inside dataset.
+
+At Part A, user input from terminal is taken to print results either on blank image or image. Then, Results are shown. Same is done for part B,too. 

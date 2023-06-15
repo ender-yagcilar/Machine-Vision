@@ -1,0 +1,12 @@
+EE576 - Project 2
+Ender Yağcılar
+
+In this project the main objective was combining images by using homography maps. In Part A, ı solved homography map given in the question by using cv::solve method(A * q = a).4 points from each image is requested because 4 points was needed in part B to calculate homography map. 3 is needed for Part A.  
+In part B, i solved for homography map by using cv::findHomography method of opencv
+In part C, i combined images by using homography maps. This is applied N2 times. At each time, new image is formed by using consequent image.
+
+    MY COMMENT ON N1 AND N2:
+    As N1 increases, cv::findHomography can find more accurate homography maps.
+    As N2 increases, deviation increases significantly and images become meaningless.
+    
+Reference to "https://docs.opencv.org/4.x/d9/dab/tutorial_homography.html"

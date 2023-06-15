@@ -1,0 +1,10 @@
+EE576 Project 3
+Ender Yağcılar
+208405039
+
+
+after code starts, It gets rgb values from table and converts it to hsv_table. Then,it wants a string value for selecting image from a folder called "ColorImageDataset". After getting image, it changes this rbg to hsv and shows every channel by grayscale. Than, it wants an input for threshold color to mask image and gives thresholded image. At the end of Part A, it gets an input to continue for Part B or repeated Part A.
+
+At part B, Code first do opening and closing on masked image and than, applies high pass filtering.
+
+

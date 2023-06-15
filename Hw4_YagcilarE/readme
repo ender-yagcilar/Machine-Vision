@@ -1,0 +1,8 @@
+EE576 Project 4
+Ender Yağcılar
+208405039
+
+
+After running, Code will show segmented image for Q1. Image can be chaned by changing image_path variable. At Q2, code will first print the number of small, medium and large segments. Then, it will show medium sized segments. It can be changed by changing
+"hw4.show_interested_segment_areas(1);" 0->small 1-> medium 2->large.
+After that, SIFT algorithm is implemented. Text file is created and results are shown. 

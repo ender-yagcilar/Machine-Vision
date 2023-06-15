@@ -1,0 +1,14 @@
+EE576 Project 2
+
+For linux:
+To make this code work, it can be built by using gcc by using this command:
+/usr/bin/g++ -fdiagnostics-color=always -g main.cpp hw2.cpp -o main `pkg-config --cflags --libs opencv4`
+
+It can be run by : 
+./main
+
+after code starts, it want N value to open frame_N and frame_N. 4 points needs to be clicked from screen and after that by pressing any key code will calculate homography for Part A and Part B.
+
+For part C, new image will be opened in a window named "new image". Merged Image will be shown in window named "Final Image". User must select 4 points from each image and press any key. Number of merges so far will be shown at the windows name such as "N = 3". A new merged image will be created and this process will continue for N2 times.
+
+I couldnt make callback function a method so ı left it inside the main. I will work on it to transfer into class method.
